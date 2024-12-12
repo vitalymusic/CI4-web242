@@ -26,7 +26,27 @@ class Home extends BaseController
 
     public function about(): string
     {
-        return view('about_screen');
+        $table = new \CodeIgniter\View\Table();
+        
+        $template = [
+            'table_open' => '<table border="1" cellpadding="2" cellspacing="1" class="table">',
+        ];
+
+        $table->setTemplate($template);
+        $data["tableObject"] = $table;
+
+
+        $data["tableData"] = [
+            ['Name', 'Color', 'Size'],
+            ['Fred', 'Blue', 'Small'],
+            ['Mary', 'Red', 'Large'],
+            ['John', 'Green', 'Medium'],
+        ];
+
+        
+
+
+        return view('about_screen',$data);
     }
     
 
