@@ -45,6 +45,43 @@ class Home extends BaseController
 
         return view('about_screen',$data);
     }
+
+
+    public function all_posts(){
+        $data["page_title"] = "Новости";
+        $data["posts"] = [
+                [
+                    "id"=>"1",
+                    "post_title"=>"Post1",
+                    "post_content"=>"Post 1 content"
+                ],
+                [
+                    "id"=>"2",
+                    "post_title"=>"Post2",
+                    "post_content"=>"Post 2 content"
+                ],
+                [
+                    "id"=>"3",
+                    "post_title"=>"Post3",
+                    "post_content"=>"Post 3 content"
+                ]
+            ];
+
+
+
+        return view('posts_screen',$data);
+    }
+
+
+    public function post($id){
+
+        $data = [
+            "postID" => $id
+        ];
+
+
+        return view('post_screen',$data);
+    }
     
 
 }

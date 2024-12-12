@@ -44,3 +44,29 @@ in APPPATH/Controllers/Home.php on line 10.
  4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:30:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "posts_screen.php"
+[Method: GET, Route: posts]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts_screen.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('posts_screen', [], true)
+ 3 APPPATH/Controllers/Home.php(72): view('posts_screen', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->all_posts()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:31:47 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: posts]
+in APPPATH/Views/posts_screen.php on line 4.
+ 1 APPPATH/Views/posts_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/posts_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/posts_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('posts_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(72): view('posts_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->all_posts()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
