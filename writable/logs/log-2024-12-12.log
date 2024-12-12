@@ -70,3 +70,373 @@ in APPPATH/Views/posts_screen.php on line 4.
  9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:49:24 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:49:52 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:49:53 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:50:12 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:51:01 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:51:02 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:51:03 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:51:30 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:51:31 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:30 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 3 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:31 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 3 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:51 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:57 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:58 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:58 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:52:58 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:53:24 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:53:25 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 4.
+ 1 APPPATH/Views/post_screen.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 4)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(88): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:19 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:20 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:24 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:25 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:27 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:50 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:53 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:54:59 --> ErrorException: Undefined variable $data
+[Method: GET, Route: post/1]
+in APPPATH/Views/post_screen.php on line 8.
+ 1 APPPATH/Views/post_screen.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php', 8)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/CI4-web242/app/Views/post_screen.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('post_screen', [], true)
+ 5 APPPATH/Controllers/Home.php(86): view('post_screen', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->post('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-12 19:57:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "postс"
+[Method: GET, Route: post%D1%81]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('postс')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('postс')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

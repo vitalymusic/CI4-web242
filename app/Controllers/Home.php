@@ -78,9 +78,9 @@ class Home extends BaseController
 
     public function post($id){
 
-        $data = [
-            "postID" => $id
-        ];
+        $data["page_title"] = "Новость";
+
+        $data["id"] = $id;
 
 
         return view('post_screen',$data);

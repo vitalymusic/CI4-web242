@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><?=$post["post_title"]?></h5>
                     <p class="card-text"><?=$post["post_content"]?></p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="<?=base_url("post/{$post['id']}")?>" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         <?php endforeach ?>
