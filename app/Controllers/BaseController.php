@@ -55,4 +55,11 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+
+    public function not_working(): string
+    {
+        return "<h1>This page is under construction</h1>";
+    }
+    
 }
