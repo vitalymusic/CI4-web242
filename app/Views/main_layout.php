@@ -12,8 +12,11 @@
    <?php include "components/navigation.php" ?>
 
     <div class="container">
-        <h1><?= $this->renderSection('page_title', true) ?></h1>
-        <p><?= $this->renderSection('page_content', true) ?></p>
+        <h1>
+          <?= $this->renderSection('page_title', true) ?>
+        </h1>
+        <p>
+          <?= $this->renderSection('content', true) ?></p>
     </div>
     
     <?= $this->renderSection('javascript', true) ?>

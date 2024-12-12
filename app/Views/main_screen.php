@@ -1,11 +1,12 @@
 <?= $this->extend('main_layout') ?>
 
 <?= $this->section('page_title') ?>
-    This is main page
+    <?= $page_title ?>
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
-    <h1>Welcome to main page</h1>
+    <h1><?=$user_data["name"]?></h1>
+    <h1><?=$user_data["email"]?></h1>
 
 <?= $this->endSection() ?>
 
@@ -14,6 +15,6 @@
 
 <?= $this->section('javascript') ?>
        <script>
-            alert("This is main page";)
+            alert("This is main page");
        </script>
 <?= $this->endSection() ?>
