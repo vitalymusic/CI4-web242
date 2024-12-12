@@ -16,11 +16,6 @@ class Home extends BaseController
                 "email" => "user@inbox.lv"
             ]
         ];
-
-
-
-
-
         return view('main_screen',$data);
     }
 
@@ -33,6 +28,8 @@ class Home extends BaseController
         ];
 
         $table->setTemplate($template);
+
+
         $data["tableObject"] = $table;
 
 
