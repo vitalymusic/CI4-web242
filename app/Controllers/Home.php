@@ -52,16 +52,19 @@ class Home extends BaseController
         $data["posts"] = [
                 [
                     "id"=>"1",
+                    "post_image"=>"https://placehold.co/300",
                     "post_title"=>"Post1",
                     "post_content"=>"Post 1 content"
                 ],
                 [
                     "id"=>"2",
+                    "post_image"=>"https://placehold.co/300",
                     "post_title"=>"Post2",
                     "post_content"=>"Post 2 content"
                 ],
                 [
                     "id"=>"3",
+                    "post_image"=>"https://placehold.co/300",
                     "post_title"=>"Post3",
                     "post_content"=>"Post 3 content"
                 ]
