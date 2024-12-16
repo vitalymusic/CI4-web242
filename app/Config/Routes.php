@@ -10,4 +10,10 @@ $routes->get('/about', 'Home::about');
 $routes->get('/new_post', 'Home::new_post_form');
 
 $routes->get('/posts', 'Home::all_posts');
+
 $routes->get('/post/(:num)', 'Home::post/$1');
+
+
+// Save post Form data
+$routes->post('/save_post', 'Home::save_post');
+

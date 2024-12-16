@@ -121,6 +121,21 @@ class Home extends BaseController
         return view('new_post_form');
 
     }
+
+
+    public function save_post(){
+        $formData = [
+            "post_name" =>$this->request->getPost('post_name'),
+            "content" =>$this->request->getPost('content'),
+            "post_img" =>$this->request->getPost('post_img'),
+            "user_id" =>$this->request->getPost('user_id')
+        ];
+
+
+        
+
+        d($formData);
+    }
     
 
 }
