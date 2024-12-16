@@ -16,6 +16,6 @@
 
 <?= $this->section('javascript') ?>
        <script>
-            alert("This is about page";)
+            // alert("This is about page")
        </script>
 <?= $this->endSection() ?>
