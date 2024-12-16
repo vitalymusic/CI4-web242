@@ -4,6 +4,12 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    function __construct(){
+        $this->db = \Config\Database::connect();
+        $this->builder = $this->db->table('posts');
+    }
+    
+
     public function index(): string
     {
         $data = [
@@ -48,29 +54,38 @@ class Home extends BaseController
 
 
     public function all_posts(){
+        $result = $this->builder->get();
+
+        foreach ($result->getResultArray() as $row) {
+            $data["posts"][] = $row;
+        }
+
         $data["page_title"] = "Новости";
-        $data["posts"] = [
-                [
-                    "id"=>"1",
-                    "post_image"=>"https://placehold.co/300",
-                    "post_title"=>"Post1",
-                    "post_content"=>"Post 1 content"
-                ],
-                [
-                    "id"=>"2",
-                    "post_image"=>"https://placehold.co/300",
-                    "post_title"=>"Post2",
-                    "post_content"=>"Post 2 content"
-                ],
-                [
-                    "id"=>"3",
-                    "post_image"=>"https://placehold.co/300",
-                    "post_title"=>"Post3",
-                    "post_content"=>"Post 3 content"
-                ]
-            ];
 
 
+
+
+        // $data["posts"] = [
+        //         [
+        //             "id"=>"1",
+        //             "post_image"=>"https://placehold.co/300",
+        //             "post_title"=>"Post1",
+        //             "post_content"=>"Post 1 content"
+        //         ],
+        //         [
+        //             "id"=>"2",
+        //             "post_image"=>"https://placehold.co/300",
+        //             "post_title"=>"Post2",
+        //             "post_content"=>"Post 2 content"
+        //         ],
+        //         [
+        //             "id"=>"3",
+        //             "post_image"=>"https://placehold.co/300",
+        //             "post_title"=>"Post3",
+        //             "post_content"=>"Post 3 content"
+        //         ]
+            // ];
+            
 
         return view('posts_screen',$data);
     }
@@ -79,10 +94,10 @@ class Home extends BaseController
     public function post($id){
 
         $data["page_title"] = "Новость";
+        $result = $this->builder->where('id',$id)->get();
+        $data["post"] = $result->getResultArray()[0];
 
-        $data["id"] = $id;
-
-
+        // return d($data);
         return view('post_screen',$data);
     }
     

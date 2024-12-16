@@ -5,7 +5,9 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
-  <?= $id ?>
+  <h2><?= $post["post_name"] ?></h2>
+  <img src="<?= $post["post_img"] ?>" alt="post_image" width="300px">
+  <p><?= $post["content"] ?></p>
 
 <?= $this->endSection() ?>
 
