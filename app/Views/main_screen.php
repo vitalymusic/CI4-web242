@@ -15,6 +15,6 @@
 
 <?= $this->section('javascript') ?>
        <script>
-            alert("This is main page");
+           
        </script>
 <?= $this->endSection() ?>

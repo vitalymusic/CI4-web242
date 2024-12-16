@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use CodeIgniter\I18n\Time;
 
 class Home extends BaseController
 {
@@ -92,12 +93,23 @@ class Home extends BaseController
 
 
     public function post($id){
+        
 
         $data["page_title"] = "Новость";
-        $result = $this->builder->where('id',$id)->get();
+        $this->builder->select('post_name, content, posts.post_img, posts.date, users.name, users.surname');
+        $this->builder->join('Users', 'posts.user_id = Users.id');
+        $result = $this->builder->where('posts.id',$id)->get();
+
+
         $data["post"] = $result->getResultArray()[0];
 
-        // return d($data);
+        $data["post"]["date"] = Time::createFromFormat('dd-m-Y H:i:s', $data["post"]["date"], 'Europe/Riga');
+
+
+
+
+
+        // return d($time);
         return view('post_screen',$data);
     }
     
