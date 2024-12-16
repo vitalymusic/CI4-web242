@@ -103,7 +103,8 @@ class Home extends BaseController
 
         $data["post"] = $result->getResultArray()[0];
 
-        $data["post"]["date"] = Time::createFromFormat('dd-m-Y H:i:s', $data["post"]["date"], 'Europe/Riga');
+       $time = Time::parse($data["post"]["date"]);
+        $data["post"]["date"]  = "{$time->day}.{$time->month}.{$time->year} {$time->hour}:{$time->minute}";
 
 
 
@@ -111,6 +112,14 @@ class Home extends BaseController
 
         // return d($time);
         return view('post_screen',$data);
+    }
+
+
+
+    public function new_post_form(){
+
+        return view('new_post_form');
+
     }
     
 
