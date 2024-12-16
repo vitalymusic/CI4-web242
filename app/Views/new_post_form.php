@@ -14,7 +14,7 @@
             <textarea class="form-control" id=""  name="content" placeholder="Post content"></textarea>
         </div>
         <div class="form-group mb-3">
-            <input type="file" class="form-control" id="" name="content" placeholder="Post image" name="post_img">
+            <input type="file" class="form-control" id="" name="post_img" placeholder="Post image">
         </div>
 
         <input type="hidden" name="user_id" value="1">

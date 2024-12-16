@@ -131,6 +131,13 @@ class Home extends BaseController
             "user_id" =>$this->request->getPost('user_id')
         ];
 
+        if($this->builder->insert($formData)){
+            return redirect()->to("posts");
+        }
+        
+
+
+
         // $file = $this->request->getFile('post_img');
         // $newName = $file->getRandomName();
         // $file->move(WRITEPATH . 'uploads', $newName);
@@ -142,7 +149,7 @@ class Home extends BaseController
 
 
         d($formData);
-        
+
     }
     
 
