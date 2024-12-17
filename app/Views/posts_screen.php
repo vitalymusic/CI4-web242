@@ -8,7 +8,7 @@
     <div class="container d-flex justify-content-around">
         <?php foreach($posts as $post):?>
             <div class="card" style="width: 18rem;">
-                <img src="<?= WRITEPATH . $post["post_img"]?>" class="card-img-top" alt="post<?=$post["id"]?>_image">
+                <img src="<?= base_url().'uploads/'.$post["post_img"]?>" class="card-img-top" alt="post<?=$post["id"]?>_image">
                 <div class="card-body">
                     <h5 class="card-title"><?=$post["post_name"]?></h5>
                     <p class="card-text"><?=$post["content"]?></p>

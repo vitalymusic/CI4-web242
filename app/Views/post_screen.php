@@ -6,7 +6,7 @@
 
 <?= $this->section('content') ?>
   <h2><?= $post["post_name"] ?></h2>
-  <img src="<?= $post["post_img"] ?>" alt="post_image" width="300px">
+  <img src="<?= base_url().'uploads/'.$post["post_img"]?>"  alt="post_image" width="300px">
   <p><?= $post["content"] ?></p>
   <p>Author: <?= $post["name"]?> <?= $post["surname"]?></p>
   <p>Post Date: <?= $post["date"]?></p>

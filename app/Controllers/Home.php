@@ -127,10 +127,12 @@ class Home extends BaseController
         $formData = [
             "post_name" =>$this->request->getPost('post_name'),
             "content" =>$this->request->getPost('content'),
-            "post_img" =>$this->request->getFile('post_img')->store(),
+            "post_img" =>$this->request->getFile('post_img')->getName(),
             "user_id" =>$this->request->getPost('user_id')
         ];
 
+        $this->request->getFile('post_img')->store(FCPATH .'/uploads');
+        
         if($this->builder->insert($formData)){
             return redirect()->to("posts");
         }
