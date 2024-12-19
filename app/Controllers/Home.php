@@ -9,7 +9,6 @@ class Home extends BaseController
         $this->db = \Config\Database::connect();
         $this->builder = $this->db->table('posts');
     }
-    
 
     public function index(): string
     {
@@ -35,11 +34,7 @@ class Home extends BaseController
         ];
 
         $table->setTemplate($template);
-
-
         $data["tableObject"] = $table;
-
-
         $data["tableData"] = [
             ['Name', 'Color', 'Size'],
             ['Fred', 'Blue', 'Small'],
@@ -62,39 +57,11 @@ class Home extends BaseController
         }
 
         $data["page_title"] = "Новости";
-
-
-
-
-        // $data["posts"] = [
-        //         [
-        //             "id"=>"1",
-        //             "post_image"=>"https://placehold.co/300",
-        //             "post_title"=>"Post1",
-        //             "post_content"=>"Post 1 content"
-        //         ],
-        //         [
-        //             "id"=>"2",
-        //             "post_image"=>"https://placehold.co/300",
-        //             "post_title"=>"Post2",
-        //             "post_content"=>"Post 2 content"
-        //         ],
-        //         [
-        //             "id"=>"3",
-        //             "post_image"=>"https://placehold.co/300",
-        //             "post_title"=>"Post3",
-        //             "post_content"=>"Post 3 content"
-        //         ]
-            // ];
-            
-
         return view('posts_screen',$data);
     }
 
 
     public function post($id){
-        
-
         $data["page_title"] = "Новость";
         $this->builder->select('post_name, content, posts.post_img, posts.date, users.name, users.surname');
         $this->builder->join('Users', 'posts.user_id = Users.id');
@@ -132,26 +99,10 @@ class Home extends BaseController
         ];
 
         $this->request->getFile('post_img')->store(FCPATH .'/uploads');
-        
+
         if($this->builder->insert($formData)){
             return redirect()->to("posts");
         }
-        
-
-
-
-        // $file = $this->request->getFile('post_img');
-        // $newName = $file->getRandomName();
-        // $file->move(WRITEPATH . 'uploads', $newName);
-
-
-        
-
-
-
-
-        d($formData);
-
     }
     
 
