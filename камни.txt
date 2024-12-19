@@ -1,0 +1,73 @@
+// Функция для генерации случайных чисел в диапазоне
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Генерируем случайные камни
+function generateStones(numStones, maxWeight) {
+    const stones = [];
+    for (let i = 0; i < numStones; i++) {
+        stones.push(getRandomInt(1, maxWeight));
+    }
+    return stones;
+}
+
+// Функция для разбиения камней на две кучи с минимальной разницей
+function splitStones(stones) {
+    const totalWeight = stones.reduce((sum, weight) => sum + weight, 0);
+    const halfWeight = Math.floor(totalWeight / 2);
+    
+    // Динамическое программирование для поиска максимальной массы кучи, не превышающей половины
+    const dp = Array(halfWeight + 1).fill(false);
+    dp[0] = true;
+
+    stones.forEach(weight => {
+        for (let j = halfWeight; j >= weight; j--) {
+            dp[j] = dp[j] || dp[j - weight];
+        }
+    });
+
+    // Находим максимальный возможный вес первой кучи
+    let maxFirstPile = 0;
+    for (let i = halfWeight; i >= 0; i--) {
+        if (dp[i]) {
+            maxFirstPile = i;
+            break;
+        }
+    }
+
+    // Формируем две кучи
+    const firstPile = [];
+    const secondPile = [...stones];
+    let remainingWeight = maxFirstPile;
+
+    // Восстанавливаем элементы первой кучи
+    for (let i = stones.length - 1; i >= 0 && remainingWeight > 0; i--) {
+        if (remainingWeight >= stones[i] && dp[remainingWeight - stones[i]]) {
+            firstPile.push(stones[i]);
+            secondPile.splice(secondPile.indexOf(stones[i]), 1);
+            remainingWeight -= stones[i];
+        }
+    }
+
+    return { firstPile, secondPile };
+}
+
+// Пример использования
+const numStones = getRandomInt(5, 15); // Случайное количество камней
+const maxWeight = 20; // Максимальный вес одного камня
+const stones = generateStones(numStones, maxWeight);
+
+console.log("Камни:", stones);
+
+const { firstPile, secondPile } = splitStones(stones);
+
+console.log("Первая куча:", firstPile, "Вес:", firstPile.reduce((sum, w) => sum + w, 0));
+console.log("Вторая куча:", secondPile, "Вес:", secondPile.reduce((sum, w) => sum + w, 0));
+
+
+Объяснение:
+Генерация данных: Сначала создаются камни случайного веса.
+Решение задачи: Используем динамическое программирование для поиска подмножества камней, сумма весов которых максимально близка к половине от общего веса.
+Формирование куч: После нахождения решения разъединяем камни на две кучи.
+Запусти этот код в консоли браузера или среде выполнения Node.js, чтобы увидеть результат.
