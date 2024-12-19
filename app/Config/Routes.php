@@ -13,6 +13,10 @@ $routes->get('/posts', 'Home::all_posts');
 
 $routes->get('/post/(:num)', 'Home::post/$1');
 
+$routes->get('/get_menu', 'Home::get_menu');
+
+
+
 
 // Save post Form data
 $routes->post('/save_post', 'Home::save_post');

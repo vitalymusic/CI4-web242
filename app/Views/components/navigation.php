@@ -6,26 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?=base_url()?>">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?=base_url('about')?>">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
+        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -34,3 +15,25 @@
     </div>
   </div>
 </nav>
+
+
+<script>
+
+  fetch("<?=base_url('get_menu') ?>")
+    .then((data)=>{return data.json()})
+    .then((json)=>{
+       return createMenu(json);
+    });
+
+    function createMenu(data){
+      let out = "";
+      data.menu.forEach((item)=>{
+        out+=`
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="<?=base_url()?>${item.menu_url}">${item.menu_name}</a>
+        </li>
+        `;
+      })
+        document.querySelector(".navbar-nav").innerHTML = out;
+    }
+</script>

@@ -106,4 +106,18 @@ class Home extends BaseController
     }
     
 
+
+    public function get_menu(){
+        $builder = $this->db->table('menu');    
+        $result = $builder->get();
+
+        foreach ($result->getResultArray() as $row) {
+            $data["menu"][] = $row;
+        }
+
+        return $this->response->setJSON($data);
+        
+        //  echo json_encode($data, JSON_UNESCAPED_UNICODE);
+    }
+
 }
